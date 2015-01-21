@@ -1,4 +1,4 @@
-Django==1.6.1
+Django==1.6.9
 Markdown==2.3.1
 South==0.8.4
 celery==3.1.8
@@ -20,9 +20,9 @@ django-configurations==0.7
 django-storages==1.1.8
 dj-database-url==0.2.2
 django-cache-url==0.6.0
-gunicorn==18.0
+django-gunicorn
 dj-static==0.0.5
 boto==2.20.0
 honcho==0.5.0
 https://github.com/django-compressor/django-compressor/archive/develop.zip#egg=django_compressor
--e git://github.com/stefanw/froide.git@master#egg=froide
+-e git://github.com/fin/froide.git@master#egg=froide

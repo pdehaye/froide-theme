@@ -1,0 +1,9 @@
+#main-folders {
+	background-image: url('../img/folders_at.jpg');
+}
+body .navbar .navbar-brand {
+  background-image: url('../img/logo-48.png');
+  background-repeat: no-repeat;
+  background-position: 3px 5px;
+  padding-left: 60px;
+}

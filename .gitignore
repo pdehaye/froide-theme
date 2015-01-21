@@ -3,4 +3,9 @@
 *.db
 build/
 dist/
+froide_theme/local_settings.py*
 *.egg-info
+*.swp
+public/
+.pbundle
+*.mo
