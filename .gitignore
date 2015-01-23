@@ -11,3 +11,4 @@ public/
 *.mo
 files/*
 whoosh_index/*
+logs/*
