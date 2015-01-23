@@ -99,7 +99,7 @@ class CustomThemeBase(ThemeBase, Base):
 
     @property
     def INSTALLED_APPS(self):
-        return super(CustomThemeBase, self).INSTALLED_APPS + ['django_gunicorn','celery_haystack','djcelery_email']
+        return super(CustomThemeBase, self).INSTALLED_APPS + ['gunicorn','celery_haystack','djcelery_email']
 
     @property
     def MIDDLEWARE_CLASSES(self):
