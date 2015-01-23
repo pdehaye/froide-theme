@@ -115,7 +115,7 @@ class CustomThemeBase(ThemeBase, Base):
             create_new_publicbody=False,
             publicbody_empty=False,
             user_can_hide_web=True,
-            public_body_officials_public=True,
+            public_body_officials_public=False,
             public_body_officials_email_public=False,
             default_law=1,
             doc_conversion_binary="/usr/bin/libreoffice",
