@@ -9,3 +9,5 @@ froide_theme/local_settings.py*
 public/
 .pbundle
 *.mo
+files/*
+whoosh_index/*
