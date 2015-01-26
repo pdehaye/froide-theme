@@ -148,7 +148,7 @@ class DevBase(CustomThemeBase):
 
 
 class ProductionBase(CustomThemeBase, ProductionFroide):
-    DEBUG = True
+    DEBUG = False
     LOGGING = {
         'version': 1,
         'disable_existing_loggers': False,
