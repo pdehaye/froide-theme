@@ -24,7 +24,7 @@ dj-static==0.0.5
 boto==2.20.0
 honcho==0.5.0
 https://github.com/django-compressor/django-compressor/archive/develop.zip#egg=django_compressor
-whoosh<2.5
+whoosh
 django-celery-email==1.0.4
 django-secure==1.0
 -e git://github.com/fin/celery-haystack.git@latest-deploy#egg=celery_haystack
