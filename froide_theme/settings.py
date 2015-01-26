@@ -8,6 +8,8 @@ THEME_ROOT = os.path.abspath(os.path.dirname(__file__))
 rec = lambda x: re.compile(x, re.I | re.U)
 
 class CustomThemeBase(ThemeBase, Base):
+    ALLOWED_HOSTS = ['.fragdenstaat.at']
+
     gettext = lambda s:s
     LANGUAGES = (('de-at', gettext('German'),),)
     FROIDE_THEME = 'froide_theme.theme'
