@@ -9,6 +9,7 @@ rec = lambda x: re.compile(x, re.I | re.U)
 
 class CustomThemeBase(ThemeBase, Base):
     ALLOWED_HOSTS = ['.fragdenstaat.at']
+    SERVER_EMAIL = 'info+errors@fragdenstaat.at'
     ADMINS = [('fin','fin+fragdenstaat@xbhd.org',)]
     MANAGERS = ADMINS
 
