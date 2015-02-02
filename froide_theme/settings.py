@@ -153,6 +153,8 @@ class DevBase(CustomThemeBase):
 
 
 class ProductionBase(CustomThemeBase, ProductionFroide):
+    USE_X_ACCEL_REDIRECT = True
+    X_ACCEL_REDIRECT_PREFIX = '/protected'
     DEBUG = False
     LOGGING = {
         'version': 1,
