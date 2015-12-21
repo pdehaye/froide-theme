@@ -28,5 +28,5 @@ whoosh
 django-celery-email==1.0.4
 django-secure==1.0
 -e git://github.com/fin/celery-haystack.git@latest-deploy#egg=celery_haystack
--e git://github.com/fin/froide.git@master#egg=froide
+-e git://github.com/fin/froide.git@deployed#egg=froide
 gunicorn==18.0
