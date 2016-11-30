@@ -1,6 +1,6 @@
 # Froide Base Theme
 
-This is a basic Django project with a theme app that plugs into [Froide](https://github.com/stefanw/froide).
+This is a basic Django project with a theme app that plugs into [Froide](https://github.com/okfde/froide).
 
 ## Get started easily
 
